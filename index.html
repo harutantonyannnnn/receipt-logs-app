@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <!-- Основное -->
+    <title>Журнал прихода товара — учёт поступлений по магазинам</title>
+    <meta name="description" content="Учёт прихода товара по магазинам: кг и штуки, журнал за месяц, быстрый ввод с телефона и отчёты — какой продукт пришёл больше всего за день, неделю или месяц." />
+    <meta name="application-name" content="Журнал прихода" />
+    <meta name="author" content="Журнал прихода" />
+    <meta name="keywords" content="журнал прихода товара, учёт поступлений, приход товара, магазины, склад, кг, штуки, отчёты" />
+    <!-- Админ-панель за логином: не показываем в поиске. Для публичной страницы замените на "index, follow" -->
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="color-scheme" content="light" />
+    <link rel="canonical" href="%SITE_URL%/" />
+
+    <!-- Иконки -->
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Цвет браузера и «приложение» на телефоне -->
+    <meta name="theme-color" content="#2f5aa8" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Журнал прихода" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <!-- Превью ссылки (Telegram, WhatsApp, Facebook, Viber) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:site_name" content="Журнал прихода" />
+    <meta property="og:title" content="Журнал прихода товара" />
+    <meta property="og:description" content="Кг и штуки, журнал за месяц, быстрый ввод с телефона и отчёты: что пришло больше всего." />
+    <meta property="og:url" content="%SITE_URL%/" />
+    <meta property="og:image" content="%SITE_URL%/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Журнал прихода товара — учёт поступлений по магазинам" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Журнал прихода товара" />
+    <meta name="twitter:description" content="Кг и штуки, журнал за месяц, быстрый ввод с телефона и отчёты." />
+    <meta name="twitter:image" content="%SITE_URL%/og-image.png" />
+    <meta name="twitter:image:alt" content="Журнал прихода товара" />
+
+    <!-- Экран загрузки до старта приложения -->
+    <style>
+      html, body { margin: 0; background: #f3f5f9; }
+      .boot { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px;
+        font-family: Inter, 'Segoe UI', system-ui, -apple-system, Roboto, Arial, sans-serif; color: #6b7486; font-size: 14px; }
+      .boot img { width: 64px; height: 64px; animation: boot-pulse 1.2s ease-in-out infinite; }
+      @keyframes boot-pulse { 50% { transform: scale(.92); opacity: .75 } }
+    </style>
+  </head>
+  <body>
+    <noscript>Для работы журнала включите JavaScript в браузере.</noscript>
+    <div id="root">
+      <div class="boot"><img src="/favicon.svg" alt="" />Журнал прихода…</div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

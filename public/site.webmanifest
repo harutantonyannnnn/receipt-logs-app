@@ -1,0 +1,21 @@
+{
+  "name": "Журнал прихода товара",
+  "short_name": "Журнал прихода",
+  "description": "Учёт прихода товара по магазинам: кг и штуки, журнал за месяц, быстрый ввод с телефона и отчёты.",
+  "lang": "ru",
+  "start_url": "/markets",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f3f5f9",
+  "theme_color": "#2f5aa8",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Магазины", "url": "/markets", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Отчёты", "url": "/reports", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
